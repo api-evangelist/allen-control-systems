@@ -1,8 +1,14 @@
 aid: allen-control-systems
 name: Allen Control Systems
-description: 'Allen Control Systems is a company surfaced as a portfolio company of craft-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: defense. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Allen Control Systems is a defense technology company building autonomous
+  precision weapon stations that detect, track, and neutralize unmanned aerial systems
+  (drones) for military and partner forces. Its Bullfrog family of robotic gun mounts
+  (M240C, M2, M230, M134) pairs passive machine-vision drone detection with autonomous
+  fire-control targeting, synthetic training-data generation, and low-collateral engagement
+  options such as laser dazzlers and composite rounds. The systems use an open architecture
+  to integrate with command-and-control platforms. Backed by Craft Ventures, the company
+  is tracked in the API Evangelist network as a defense-sector provider; it publishes
+  no public developer API, portal, or specification at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/allen-control-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - craft-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://cdn.prod.website-files.com/671a2be71d74ef267e25631c/674640d78e3c166fad83aeea_dtvc.webp
 tags:
 - Company
 - Defense
+- Counter-Drone
+- Autonomous Systems
+- Weapon Systems
+- Robotics
+- Machine Vision
+- Command and Control
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://allencontrolsystems.com
+- type: Blog
+  url: https://allencontrolsystems.com/blog
+- type: Support
+  url: https://allencontrolsystems.com/contact
+- type: PrivacyPolicy
+  url: https://allencontrolsystems.com/privacy-policy
+- type: DomainSecurity
+  url: security/allen-control-systems-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
